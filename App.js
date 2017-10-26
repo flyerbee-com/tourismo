@@ -12,6 +12,10 @@ import {
   View
 } from 'react-native';
 
+import {
+  BleManager
+} from 'react-native-ble-plx';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -19,7 +23,44 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-export default class App extends Component<{}> {
+export default class App extends Component {
+
+  componentWillMount() {
+    this.manager = new BleManager({
+      restoreStateIdentifier: 'testBleBackgroundMode',
+      restoreStateFunction: bleRestoreState => {
+        // alert('restored state');
+      }
+    });
+    // this.subscriptions = {};
+    this.manager.onStateChange((newState) => {
+      alert("State changed: " + newState)
+
+      if (newState === 'PoweredOn') {
+        this.manager.startDeviceScan(null, null, (error, device) => {
+          if (error) {
+            return;
+          } else {
+            // alert(`Found ${device.name}`);
+          }
+        });
+      }
+    });
+    // const subscription = this.manager.onStateChange((state) => {
+    //   if (state === 'PoweredOn') {
+    //       this.scanAndConnect();
+    //       subscription.remove();
+    //       alert('BLE is powered on');
+    //   }
+    // }, true);
+    
+  }
+
+  componentWillUnmount() {
+    this.manager.destroy();
+    delete this.manager;
+  }
+
   render() {
     return (
       <View style={styles.container}>
