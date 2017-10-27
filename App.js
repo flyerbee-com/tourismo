@@ -28,7 +28,7 @@ const instructions = Platform.select({
 export default class App extends Component {
 
   state = {
-    closest_beacon: 'waiting...'  
+    closest_beacon: null
   };
 
   componentWillMount() {
@@ -86,9 +86,10 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          {closest_beacon}
         </Text>
-        <Text>The closest beacon is {closest_beacon}</Text>
+        { closest_beacon && <Text>is the closest beacon</Text> }
+        { closest_beacon === null && <Text>loading the unexpected ...</Text> }
       </View>
     );
   }
