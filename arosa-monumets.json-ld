@@ -1,0 +1,917 @@
+[ {
+  "@id" : "http://www.wikidata.org/entity/Q1678236",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2016-12-05T19:00:39Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "fr",
+    "@value" : "église suisse"
+  }, {
+    "@language" : "nl",
+    "@value" : "kerkgebouw in  Zwitserland"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchengebäude in Schanfigg"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "414111340"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Reformierte Kirche St. Peter"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-FBF6D598-1C87-4100-B12A-FBFE85B70D33"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-ff383706-4084-9058-3f7a-0f28942998df"
+  } ],
+  "http://www.wikidata.org/prop/P138" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q1678236-E3108B34-3806-4C6D-B6F7-A5885393065E"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q1678236-C40590A4-78BE-487E-BF04-4FB6C904E6FD"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-2835D396-AE5C-4BE4-BC4A-E58B4C39486D"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-4BFF7463-DC2D-40AE-8071-AE1BF551C002"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q1678236-D63516F5-AB90-4495-BA68-9B8A0D3B4195"
+  } ],
+  "http://www.wikidata.org/prop/P373" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-7249F629-C3F4-4185-AB4C-422C878937CB"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-098CAD4B-A7BA-4307-BA75-5B31CE2D671F"
+  } ],
+  "http://www.wikidata.org/prop/P625" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q1678236-7238994E-0112-4925-BC9F-71718A9B0B0C"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q1678236-089731FA-4569-4792-90CF-18C86FD952BA"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P138" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q33923"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q12126757"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/Schanfigg%20St.%20Peter.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q16970"
+  } ],
+  "http://www.wikidata.org/prop/direct/P373" : [ {
+    "@value" : "Reformierte Kirche St. Peter (Schanfigg)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "10806"
+  } ],
+  "http://www.wikidata.org/prop/direct/P625" : [ {
+    "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+    "@value" : "Point(9.643888 46.834288)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Hauptstrasse, St. Peter"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q2136848",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2016-12-05T21:50:17Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "fr",
+    "@value" : "église suisse"
+  }, {
+    "@language" : "nl",
+    "@value" : "kerkgebouw in  Zwitserland"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "414168544"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Reformierte Kirche Castiel"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-4f7653e2-43b4-7b39-803e-0e6fa7a9511b"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-A02C1804-290C-4867-9C5E-277B05E2FD9A"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136848-70A426D3-7B16-4AA8-97B1-76F9BD487C68"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-FBDAAFB6-B47F-452A-A7B0-E4A4972BE79C"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-C4A95100-48B3-4648-B389-8E8FB2AD8202"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136848-A42703DA-AC26-4960-B3E0-D1925C73EFF2"
+  } ],
+  "http://www.wikidata.org/prop/P373" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-0010FFB6-5613-48A6-9A59-0790B31A4EAE"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-FB1D705C-4DA7-4A12-8CED-0D4DDB7D0C35"
+  } ],
+  "http://www.wikidata.org/prop/P625" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136848-E6884E66-661C-4EE7-B240-E48466CA3D65"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136848-432090E0-0BB8-4F4C-AE2C-6E5AF7B76C1A"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q12126757"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/Kirche%20Castiel%20Christopherus.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q16970"
+  } ],
+  "http://www.wikidata.org/prop/direct/P373" : [ {
+    "@value" : "Reformierte Kirche Castiel"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "12435"
+  } ],
+  "http://www.wikidata.org/prop/direct/P625" : [ {
+    "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+    "@value" : "Point(9.601831 46.8384215)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Pasuna, Castiel"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q2136936",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2017-09-05T08:00:52Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "fr",
+    "@value" : "église suisse"
+  }, {
+    "@language" : "nl",
+    "@value" : "kerkgebouw in  Zwitserland"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "552095136"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Reformierte Kirche Langwies"
+  }, {
+    "@language" : "it",
+    "@value" : "chiesa riformata di Langwies"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-767F36BA-C04E-4C78-933F-496C17786E63"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-7c9fdc5a-4f43-45af-c1e9-c4b640012e92"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136936-E4B9DCD0-553D-4BC6-8041-42CBF42F8C42"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-85197309-8F21-46EF-8ABC-FA58BA0B5B28"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-D720B200-6D86-41AD-9D35-FF31B8C76355"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136936-72CCC9ED-2BCC-45E6-B72E-68CCDC77BE56"
+  } ],
+  "http://www.wikidata.org/prop/P373" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-B04577F3-76AF-49B4-92F2-4EC4ADD12485"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-97EE982B-4DEA-4523-8AB8-B3EF02495C79"
+  } ],
+  "http://www.wikidata.org/prop/P625" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136936-65036FDE-6124-453A-B98E-F0EF106F60FC"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136936-F2E86C2C-9729-4E4C-8DF7-9AF7BE3C1468"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q12126757"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/Kirche%20Langwies%2020.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q16970"
+  } ],
+  "http://www.wikidata.org/prop/direct/P373" : [ {
+    "@value" : "Reformierte Kirche Langwies"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "3059"
+  } ],
+  "http://www.wikidata.org/prop/direct/P625" : [ {
+    "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+    "@value" : "Point(9.71319 46.820331)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Kantonsstrasse, Langwies"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q2136950",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2016-12-05T22:38:31Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "fr",
+    "@value" : "église suisse"
+  }, {
+    "@language" : "nl",
+    "@value" : "kerkgebouw in  Zwitserland"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "414192282"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Reformierte Kirche Lüen"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-1e773e2f-4f19-9cc2-7b9d-5e3733cb5ee4"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-C3EA081B-D7F6-4552-9B3E-F5823A0EB8AD"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136950-78CDC272-B4E6-46D2-9D32-339A52E920DC"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-DA14FAC4-F015-4436-A6D6-B984F0D6CB42"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-CE00C992-7F6F-4737-AA34-20A9FCD223F7"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136950-93B57DFA-9B1A-4E9A-BE9A-D113CFF54A5E"
+  } ],
+  "http://www.wikidata.org/prop/P373" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-0142A9CE-F5BB-485A-BA4C-6D1749113306"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-DE111E1F-BEE1-4ECE-BBA3-C313EBA04263"
+  } ],
+  "http://www.wikidata.org/prop/P625" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2136950-849F8914-F3C1-4772-AC80-4057F56A7531"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2136950-AC6D01A9-9850-440B-80E7-F7A5005B2798"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q12126757"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/Kirche%20L%C3%BCen.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q16970"
+  } ],
+  "http://www.wikidata.org/prop/direct/P373" : [ {
+    "@value" : "Reformierte Kirche Lüen"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "3073"
+  } ],
+  "http://www.wikidata.org/prop/direct/P625" : [ {
+    "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+    "@value" : "Point(9.612886 46.8329025)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Dorf, Lüen"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q2230948",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2017-01-12T08:02:14Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "he",
+    "@value" : "מוזיאון בשווייץ"
+  }, {
+    "@language" : "nl",
+    "@value" : "museum in Graubünden, Zwitserland"
+  }, {
+    "@language" : "de",
+    "@value" : "Museum in Arosa (Schweiz)"
+  }, {
+    "@language" : "en",
+    "@value" : "museum in Arosa (Switzerland)"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "427584822"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Heimatmuseum Schanfigg-Arosa"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "de",
+    "@value" : "Egga-Haus"
+  }, {
+    "@language" : "de",
+    "@value" : "Eggahuus"
+  }, {
+    "@language" : "de",
+    "@value" : "Heimatmuseum Arosa"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-26534E4D-77E7-4848-9A48-7A7478355658"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-28094d83-44e1-66d0-0f72-51863ab94275"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-7727CD90-0194-4BE5-BE11-F6B436636F23"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-AB45F0DA-C984-4123-98B7-589AA00B2E86"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-DE673D47-1613-4E3D-8BF2-D45E658D5447"
+  } ],
+  "http://www.wikidata.org/prop/P281" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-04943939-1463-4E3B-821D-ECA9CA752811"
+  } ],
+  "http://www.wikidata.org/prop/P3066" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-3D065124-45EF-40D9-9017-397EBA9FE76C"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-5ECEDD8E-21DB-4B7F-AD2D-018147D95B4D"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-89BC88DB-531C-4FB8-ADCB-8C531BAC658F"
+  } ],
+  "http://www.wikidata.org/prop/P373" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-46FABB7F-FA94-4559-808A-E2C8BFDC9445"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-782E33D4-639D-4A77-B258-9657FB34D88B"
+  } ],
+  "http://www.wikidata.org/prop/P625" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q2230948-DF2403AC-6133-456F-ACC0-0FE375DE05DF"
+  } ],
+  "http://www.wikidata.org/prop/P856" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-BC98FE34-E5D7-4758-B871-939349D462A9"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-4BC94D73-63C3-4820-B6AB-3C41E57FBE70"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/Q2230948-5FBA4464-82C6-4C17-BB7F-EF10352EED80"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q12126757"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/Mistail%20aussen.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P281" : [ {
+    "@value" : "7050"
+  } ],
+  "http://www.wikidata.org/prop/direct/P3066" : [ {
+    "@value" : "CH-000063"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q1497649"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q1595639"
+  } ],
+  "http://www.wikidata.org/prop/direct/P373" : [ {
+    "@value" : "St. Peter, Mistail"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "2848"
+  } ],
+  "http://www.wikidata.org/prop/direct/P625" : [ {
+    "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+    "@value" : "Point(9.560961 46.666682)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P856" : [ {
+    "@id" : "http://www.arosa-museum.ch"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Eggaplatz"
+  }, {
+    "@value" : "Hörnlistrasse, Arosa"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q29479669",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2017-08-10T19:18:00Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "nl",
+    "@value" : "archeologische vindplaats in Zwitserland"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "535219162"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Carschlingg, prähistorische /spätrömische-frühmittelalterliche Siedlung"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-7DBD4F94-C818-4C20-9F92-9A65F4A24BA2"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-E9948A45-D686-433C-955D-40573D3C1BA7"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-6491880C-D208-496B-94A7-AD8A7E9E7370"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-7F9FF8B6-11DB-412E-B816-44A5CD90B94C"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-54ED0801-9D28-49B9-AF0D-1070A361447E"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-D65A9BEE-0F8B-4CAB-AF8E-33D5C4F83F36"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29479669-C7315513-2DB7-4656-93F1-CA1F475045D7"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q8274529"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/Castiel.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q839954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "9613"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q29784528",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2017-05-05T06:34:35Z"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "481782339"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Wohnhaus Malisch"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-DE5C4FB1-1A03-47F3-8C72-94D86577EA7C"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-E6649B6B-F7B5-4FAF-B27D-F594B22B22DF"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-3746AF55-E01D-450E-99EA-B3FB3269A57B"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-769BD60A-007A-4AE2-A117-893EAF7E0DD8"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-AA61AD78-0FFD-42F5-9A09-05491B73E44F"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-8C4790DE-7C70-4D7C-A7F8-BE8025E44C25"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q29784528-94945594-449F-4252-B058-16895505C995"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q12126757"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q811979"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "10752"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Dorfstrasse 24"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q657639",
+  "http://schema.org/dateModified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2017-03-24T18:01:39Z"
+  } ],
+  "http://schema.org/description" : [ {
+    "@language" : "en",
+    "@value" : "arch bridge"
+  }, {
+    "@language" : "fr",
+    "@value" : "pont suisse"
+  }, {
+    "@language" : "nl",
+    "@value" : "bouwwerk in Graubünden"
+  } ],
+  "http://schema.org/version" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "470134576"
+  } ],
+  "http://wikiba.se/ontology#identifiers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://wikiba.se/ontology#sitelinks" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://wikiba.se/ontology#statements" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Langwieser Viadukt"
+  }, {
+    "@language" : "en",
+    "@value" : "Langwieser Viaduct"
+  }, {
+    "@language" : "fi",
+    "@value" : "Langwieser Viadukt"
+  }, {
+    "@language" : "fr",
+    "@value" : "viaduc de Langwieser"
+  }, {
+    "@language" : "it",
+    "@value" : "Viadotto di Langwies"
+  }, {
+    "@language" : "nl",
+    "@value" : "Langwieser Viaduct"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Langwieser Viadukt"
+  } ],
+  "http://www.wikidata.org/prop/P126" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-4C49D038-DB01-4BC5-88F6-E971A4FEBF44"
+  } ],
+  "http://www.wikidata.org/prop/P127" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-8D00AA34-73CE-47F3-A746-6B5E8390F247"
+  } ],
+  "http://www.wikidata.org/prop/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-37a621be-4363-290a-b705-e2a645d71231"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-FCDDCC44-0530-460A-B257-96E1EE2AC6C3"
+  } ],
+  "http://www.wikidata.org/prop/P1314" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-D29C94A0-44CC-4D43-8E9A-9BCA64CB36A9"
+  } ],
+  "http://www.wikidata.org/prop/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-A0653114-BD46-433D-A01E-4957EE57A545"
+  } ],
+  "http://www.wikidata.org/prop/P1619" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-64A5B2C6-CFB2-4727-8688-F2A98D90E34B"
+  } ],
+  "http://www.wikidata.org/prop/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-E39B21F6-ADFC-477B-B9B8-B5773ADF86FE"
+  } ],
+  "http://www.wikidata.org/prop/P177" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-E102CE40-CCAB-4756-9B08-B1DAD8C24A97"
+  } ],
+  "http://www.wikidata.org/prop/P18" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-F7E826FA-AE5C-44EF-984F-B61C718B2DB7"
+  } ],
+  "http://www.wikidata.org/prop/P186" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-85D5BD7C-129E-47A0-8FED-413C406478B9"
+  } ],
+  "http://www.wikidata.org/prop/P2048" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-C2F069B9-6AE2-4061-ACAE-E2E1BB3E721B"
+  } ],
+  "http://www.wikidata.org/prop/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-A79629D2-1BBD-448E-96F3-B3E2A740B6E7"
+  } ],
+  "http://www.wikidata.org/prop/P373" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-A0AF1E3A-9F92-4EC5-8E0E-E6A184999DA1"
+  } ],
+  "http://www.wikidata.org/prop/P381" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-FFD8AD87-6D3F-443D-B4AA-D956F7C13529"
+  } ],
+  "http://www.wikidata.org/prop/P454" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-85a0e66d-417a-f61f-923c-73ab7d2205f6"
+  } ],
+  "http://www.wikidata.org/prop/P625" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/q657639-C1DB54CC-F256-46CA-B686-6F9CCCFEC2EE"
+  } ],
+  "http://www.wikidata.org/prop/P646" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-B038D941-D6B3-4881-BF46-EB23E87A9B18"
+  } ],
+  "http://www.wikidata.org/prop/P969" : [ {
+    "@id" : "http://www.wikidata.org/entity/statement/Q657639-D6F85196-D57B-4A17-8D24-CFED45D1EF3F"
+  } ],
+  "http://www.wikidata.org/prop/direct/P126" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q177598"
+  } ],
+  "http://www.wikidata.org/prop/direct/P127" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q177598"
+  } ],
+  "http://www.wikidata.org/prop/direct/P131" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11925"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q63954"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1314" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "13"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1435" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q8274529"
+  } ],
+  "http://www.wikidata.org/prop/direct/P1619" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "1914-12-01T00:00:00Z"
+  } ],
+  "http://www.wikidata.org/prop/direct/P17" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q39"
+  } ],
+  "http://www.wikidata.org/prop/direct/P177" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q671083"
+  } ],
+  "http://www.wikidata.org/prop/direct/P18" : [ {
+    "@id" : "http://commons.wikimedia.org/wiki/Special:FilePath/RhB%20ABe%204%204%20Langwies.jpg"
+  } ],
+  "http://www.wikidata.org/prop/direct/P186" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q184190"
+  } ],
+  "http://www.wikidata.org/prop/direct/P2048" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "62"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q158438"
+  } ],
+  "http://www.wikidata.org/prop/direct/P373" : [ {
+    "@value" : "Langwieser Viadukt"
+  } ],
+  "http://www.wikidata.org/prop/direct/P381" : [ {
+    "@value" : "9075"
+  } ],
+  "http://www.wikidata.org/prop/direct/P454" : [ {
+    "@value" : "20002262"
+  } ],
+  "http://www.wikidata.org/prop/direct/P625" : [ {
+    "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+    "@value" : "Point(9.705 46.8175)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P646" : [ {
+    "@value" : "/m/0cc6bgl"
+  } ],
+  "http://www.wikidata.org/prop/direct/P969" : [ {
+    "@value" : "Langwies"
+  } ]
+}, {
+  "@id" : "https://commons.wikimedia.org/wiki/Category:Heimatmuseum,_Arosa",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2230948"
+  } ]
+}, {
+  "@id" : "https://commons.wikimedia.org/wiki/Category:Langwieser_Viadukt",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://commons.wikimedia.org/wiki/Category:Reformierte_Kirche_Castiel",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136848"
+  } ]
+}, {
+  "@id" : "https://commons.wikimedia.org/wiki/Category:Reformierte_Kirche_L%C3%BCen",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136950"
+  } ]
+}, {
+  "@id" : "https://commons.wikimedia.org/wiki/Category:Reformierte_Kirche_Langwies",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136936"
+  } ]
+}, {
+  "@id" : "https://commons.wikimedia.org/wiki/Category:Reformierte_Kirche_St._Peter_(Schanfigg)",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q1678236"
+  } ]
+}, {
+  "@id" : "https://de.wikipedia.org/wiki/Langwieser_Viadukt",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://de.wikipedia.org/wiki/Reformierte_Kirche_Castiel",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136848"
+  } ]
+}, {
+  "@id" : "https://de.wikipedia.org/wiki/Reformierte_Kirche_L%C3%BCen",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136950"
+  } ]
+}, {
+  "@id" : "https://de.wikipedia.org/wiki/Reformierte_Kirche_Langwies",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136936"
+  } ]
+}, {
+  "@id" : "https://de.wikipedia.org/wiki/Reformierte_Kirche_St._Peter_(Schanfigg)",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q1678236"
+  } ]
+}, {
+  "@id" : "https://de.wikipedia.org/wiki/Schanfigger_Heimatmuseum",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2230948"
+  } ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Langwieser_Viaduct",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://fi.wikipedia.org/wiki/Langwieser_Viadukt",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://fr.wikipedia.org/wiki/Viaduc_de_Langwies",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://it.wikipedia.org/wiki/Chiesa_riformata_di_Langwies",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2136936"
+  } ]
+}, {
+  "@id" : "https://it.wikipedia.org/wiki/Viadotto_di_Langwies",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://nl.wikipedia.org/wiki/Langwieser_Viaduct",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+}, {
+  "@id" : "https://sl.wikipedia.org/wiki/Viadukt_Langwieser",
+  "http://schema.org/about" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q657639"
+  } ]
+} ]
