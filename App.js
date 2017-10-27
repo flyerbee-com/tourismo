@@ -16,6 +16,8 @@ import {
   BleManager
 } from 'react-native-ble-plx';
 
+import _ from 'underscore';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -25,35 +27,53 @@ const instructions = Platform.select({
 
 export default class App extends Component {
 
+  state = {
+    closest_beacon: 'waiting...'  
+  };
+
   componentWillMount() {
     this.manager = new BleManager({
       restoreStateIdentifier: 'testBleBackgroundMode',
       restoreStateFunction: bleRestoreState => {
-        // alert('restored state');
       }
     });
-    // this.subscriptions = {};
     this.manager.onStateChange((newState) => {
-      alert("State changed: " + newState)
 
       if (newState === 'PoweredOn') {
+        const supported_beacons = [
+          'abeacon_B8B1',
+          'abeacon_B8B0',
+          'abeacon_B8B2',
+          'abeacon_B8FB',
+        ];
+
+        let detected_supported_beacons = {};
+
         this.manager.startDeviceScan(null, null, (error, device) => {
           if (error) {
             return;
           } else {
-            // alert(`Found ${device.name}`);
+            if (_.contains(supported_beacons, device.name)) {
+              detected_supported_beacons[device.name] = device.rssi;
+            }
+
+            setInterval(() => {
+              let conv1 = _.pairs(detected_supported_beacons);
+              // console.log(JSON.stringify(conv1));
+              let conv2 = _.map(conv1, (item) => {
+                const obj = {};
+                // obj[item[0]] = item[1];
+                obj['name'] = item[0];
+                obj['rssi'] = item[1];
+                return obj;
+              });
+              let conv3 = _.sortBy(conv2, 'rssi');
+              this.setState({closest_beacon: _.last(conv3).name});
+            }, 3000);
           }
         });
       }
-    });
-    // const subscription = this.manager.onStateChange((state) => {
-    //   if (state === 'PoweredOn') {
-    //       this.scanAndConnect();
-    //       subscription.remove();
-    //       alert('BLE is powered on');
-    //   }
-    // }, true);
-    
+    });    
   }
 
   componentWillUnmount() {
@@ -62,17 +82,13 @@ export default class App extends Component {
   }
 
   render() {
+    let {closest_beacon} = this.state;
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native3!
+          Welcome to React Native!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+        <Text>The closest beacon is {closest_beacon}</Text>
       </View>
     );
   }
