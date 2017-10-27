@@ -16,7 +16,6 @@ import {
   BleManager
 } from 'react-native-ble-plx';
 
-import _ from 'underscore';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -27,11 +26,15 @@ const instructions = Platform.select({
 
 export default class App extends Component {
 
-  state = {
-    closest_beacon: null
-  };
+  constructor(){
+    super()
+    this.state = {
+      closest_beacon: null
+    };
+  }
 
   componentWillMount() {
+    let detected_supported_beacons = new Map();
     this.manager = new BleManager({
       restoreStateIdentifier: 'testBleBackgroundMode',
       restoreStateFunction: bleRestoreState => {
@@ -40,38 +43,32 @@ export default class App extends Component {
     this.manager.onStateChange((newState) => {
 
       if (newState === 'PoweredOn') {
-        const supported_beacons = [
+        const supported_beacons = new Set([
           'abeacon_B8B1',
           'abeacon_B8B0',
           'abeacon_B8B2',
           'abeacon_B8FB',
-        ];
-
-        let detected_supported_beacons = {};
+        ]);
 
         this.manager.startDeviceScan(null, null, (error, device) => {
-          if (error) {
-            return;
-          } else {
-            if (_.contains(supported_beacons, device.name)) {
-              detected_supported_beacons[device.name] = device.rssi;
-            }
-
-            setInterval(() => {
-              let conv1 = _.pairs(detected_supported_beacons);
-              // console.log(JSON.stringify(conv1));
-              let conv2 = _.map(conv1, (item) => {
-                const obj = {};
-                // obj[item[0]] = item[1];
-                obj['name'] = item[0];
-                obj['rssi'] = item[1];
-                return obj;
-              });
-              let conv3 = _.sortBy(conv2, 'rssi');
-              this.setState({closest_beacon: _.last(conv3).name});
-            }, 3000);
-          }
+          if(error) return
+          if(supported_beacons.has(device.name)) detected_supported_beacons.set(device.name, device)
         });
+
+        setInterval(() => {
+          const sorted = Array.from(detected_supported_beacons.values()).sort((a, b) => a.rssi < b.rssi)
+          const closest = sorted[0]
+
+          fetch("http://directus.phy.one/api/1.1/tables/beacons/rows?access_token=xI2ZIGDw8rU7dgB59V15CQDmlPW5HXeT")
+          .catch(err => console.log("error fetching " + err))
+          .then(res => {
+            const contents = JSON.parse(res._bodyInit).data
+            const theBeacon = Array.from(contents).filter(b => b.beacon_name == closest.name)[0]
+            this.setState({closest_beacon: theBeacon.title})
+          })
+
+          this.setState({closest_beacon: closest.name})
+        }, 3000);
       }
     });    
   }
