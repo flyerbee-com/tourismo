@@ -10,12 +10,15 @@ import {
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
+  Dimensions
 } from 'react-native';
 
 import {
   BleManager
 } from 'react-native-ble-plx';
+
+const win = Dimensions.get('window');
 
 
 const instructions = Platform.select({
@@ -95,25 +98,22 @@ export default class App extends Component {
       let img = null
       if (closest_beacon.image != null) img = (<Image
         style={{
-          alignSelf: 'center',
-          height: 150,
-          width: 150,
-          borderWidth: 1,
-          borderRadius: 75
+          width: win.width,
+          height: win.width,
         }}
         source={{ uri: 'http://directus.phy.one' + closest_beacon.image.data.url }} resizeMode="contain"
       />)
 
       return (
         <View style={styles.container}>
+          {img}
           <Text style={styles.welcome}>
             {closest_beacon.title}
           </Text>
-          {img}
-          <Text>
+          <Text style={styles.description}>
             {closest_beacon.description}
           </Text>
-          <Text>
+          <Text style={styles.debug}>
             {closest_beacon.beacon}
           </Text>
 
@@ -133,19 +133,33 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: 20,
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 25,
+    fontWeight: 'bold',
     textAlign: 'center',
     margin: 10,
+    marginTop: 20,
   },
   instructions: {
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
   },
+  description: {
+    margin: 10,
+    fontSize: 12,
+    color: "grey",
+  },
+  debug: {
+    margin: 10,
+    fontSize: 7,
+    color: "grey",
+  }
+
 });
