@@ -69,7 +69,8 @@ export default class App extends Component {
           fetch("http://directus.phy.one/api/1.1/tables/beacons/rows?access_token=xI2ZIGDw8rU7dgB59V15CQDmlPW5HXeT")
             .catch(err => console.log("error fetching " + err))
             .then(res => {
-              if (closest && closest.name) {
+              if (closest != null && closest.name) {
+                console.log("closest " + closest.name)
                 const contents = JSON.parse(res._bodyInit).data
                 const filtered = Array.from(contents).filter(b => b.beacon_name == closest.name)
                 const theBeacon = filtered[0]
